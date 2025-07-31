@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.11.0",
+    "emoji-picker-element": "^1.26.3",
     "laravel-echo": "^2.1.7",
     "lucide-react": "^0.534.0",
     "pusher-js": "^8.4.0",

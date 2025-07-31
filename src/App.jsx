@@ -11,7 +11,7 @@ function AppRoutes() {
   const { token, isAuthenticated, authReady } = useAuth();
 
   useEffect(() => {
-    console.log('[DEBUG] Initializing Echo with token:', token);
+    // console.log('[DEBUG] Initializing Echo with token:', token);
     
     if (token) {
       initEcho(token);
